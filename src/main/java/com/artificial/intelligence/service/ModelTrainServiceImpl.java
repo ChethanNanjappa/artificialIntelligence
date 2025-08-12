@@ -22,7 +22,7 @@ import java.util.Map;
 public class ModelTrainServiceImpl implements ModelTrainService {
 
 
-    private static final String SECRET = "q/els+Z0s4WBuI0u5oy7dUczt2SiCC2rKrsLm+DrUIS5TAS7H+PrKB0D4mY59Kxn55+wRVlI4nr2jEnt3OARDz8zi7jNa1+vZ8a4ikFD8GgreQyo+gkhXQZzggyjHakHTCSlJ+zZ6da/OQYKRdHh5Vb1qf8WFBvCU70+6MTBUQkyz8z5keRr7W7psGAA0YJ9f+Ut7+B7/orgMX/3l3AnmbH0gRk9Pjxctt37qb2cqtHDmHZpDGLBkbUy5wg7OF15nITg1mP52LVjsLxad/8nvxFzdac08e0Oghh2AdttJeKdKf4wwdjluxx2LAM6upKiW/3ZaqDKW5EerB5wSN37vPCBm+4/rykjIwKQu1jgH+U=";
+    private static final String SECRET = "";
 
     public ResponseEntity<String> interactWithGptUsingAPiKey(String apiKey) {
         String jsonRequest = """
