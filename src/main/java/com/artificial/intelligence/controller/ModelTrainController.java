@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ModelTrainController {
 
 
-    @Value("${openAPi.key}")
+   /* @Value("${openAPi.key}")
     private String apiKey;
 
     @Autowired
@@ -29,6 +29,6 @@ public class ModelTrainController {
     @GetMapping("/authenticate")
     public String getAuthenticationToken(@RequestBody String userName) {
         return modelTrainService.getAuthenticationToken(userName);
-    }
+    }*/
 
 }
